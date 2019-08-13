@@ -147,7 +147,7 @@ MapcrafterUI.prototype.init = function() {
 	this.lmap = L.map("mcmap", {
 		crs: L.CRS.Simple
 	}).setView([0, 0], 0, {animate: false});
-	this.lmap.attributionControl.addAttribution("Map rendered with <a href='http://mapcrafter.org'>Mapcrafter</a>");
+	this.lmap.attributionControl.addAttribution("Map rendered with <a href='http://mapcrafter.org'>Mapcrafter</a> | <a href='https://github.com/BarbaAlGhul/panelalandia-map'>GitHub Repo</a>");
 	
 	// initialize the maps
 	var firstMap = null;
